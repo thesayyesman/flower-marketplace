@@ -1,0 +1,281 @@
+.container{
+    display: flex;
+    width: auto;
+    max-height: 500px ;
+    padding-bottom: 2rem;
+}
+
+.img{
+    display:flex;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 2px;
+}
+
+u{
+    color: brown;
+}
+
+h3.head{
+    color: rgb(54, 54, 54);
+    font-family:"Bell MT" ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    opacity: 0.9;
+}
+
+
+.content-background{
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 2rem;
+}
+
+.scroll-container {
+    background-color: #333333;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    max-height: 500px;
+    /* padding: 4px; */
+    margin-bottom: 3rem;
+    position:static;
+    border-radius: 4px;
+}
+
+.scroll-container img {
+    padding: 2px;
+    max-width: 450px;
+    max-height: 350px;
+    border-radius: 18px;
+}
+
+.scroll-container img content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear:right;
+}
+
+.column {
+    float:none;
+    padding: 15px;
+    
+}
+
+.left {
+    width: 60%;
+    padding-left: 4rem;
+}
+.right {
+    width: 40%;
+} */ \*
+
+/* 
+.middle {
+width: 60%;
+margin-bottom:70px;
+} */
+
+p{
+    float: left;
+    text-align: left;
+    font-family:"Corbel" ;
+    font-size: 16px;
+    font-weight:550;
+    /* max-width:auto ; */
+    user-select: none;
+}
+
+p.head{
+    margin-left: 3rem;
+    font-family:"Corbel" ;
+    font-size: larger;
+    text-align: left;
+    font-weight:700;
+}
+
+
+
+.testimonial{
+    background-color: black;
+    display: flex;
+    width: auto;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: left;
+    color: aliceblue;
+    opacity: 0.9;
+}
+
+.testimonial .content{
+    float:left;
+    padding: 15px;
+    
+}
+.testimonial-head{
+    color: rgb(255, 255, 255);
+    font-family:"Bell MT" ;
+    padding-top: 1rem;
+    /* padding-bottom: 4rem; */
+    opacity: 0.7;
+    width: 350px;
+}
+.testimonial p{
+    color: rgb(241, 241, 241);
+    opacity: 0.8;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 35px;
+}
+.testimonial .vertical-line{
+    border-right: solid;
+    border-width: 0.5px;
+    height: 220px;
+    padding-left: 0rem;
+}
+
+.testimonial .testmonial-btn{
+    background-color: rgb(2, 0, 0);
+    border: none;
+    color: aliceblue;
+    font-size: 23px;
+}
+
+
+.market .head{
+    color: rgb(59, 0, 142);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    font-family:"Bell MT" ;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    /* opacity: 0.9; */
+}
+/* 
+.table{
+    width: 70%;
+    margin-left: 2rem;
+    border-spacing: 1rem 1rem;
+
+}
+.td{
+    border-block-width: 25px;
+    border: 2px solid;
+}
+.table button{
+    width: 200px;
+    height: 20px;
+    padding: 2rem;
+    border: 5px solid;
+    border-color: blue;
+    background-color: rgb(255, 255, 255);
+    border-spacing: 1rem 1rem;
+
+} */
+
+.development{
+    float: left;
+    width: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 2rem;
+}
+.development .left{
+    max-width: 600px;
+    width: auto;
+    padding-left: 4rem;
+    padding-right: 0rem;
+}
+.development .left .head{
+    margin-left: 3rem;
+    font-family:"Corbel" ;
+    font-size: larger;
+    text-align: left;
+    font-weight:700;
+}
+.development .left p{
+    text-align: left;
+    width:auto;
+}
+.development .right{
+    padding-top: 2rem;
+    width: auto;
+}
+.development .right .imgg{
+    padding-right: 1px;
+    width: auto;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+/* 
+@media only screen and (max-width: 100%) {
+    .development .right .imgg{
+        padding-right: 1px;
+        width: auto;
+        max-height: 250px;
+        border-radius: 10px;
+    }
+  } */
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .development{
+        grid-template-columns: 1fr;
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+    .development .left{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .development .right{
+        width: auto;
+        /* max-width: 500px; */
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 1rem;
+    }
+    .development .right .imgg{
+        padding-right: 1px;
+        width: 100%;
+        max-height: 250px;
+        border-radius: 10px;
+    }
+
+    .testimonial{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial p{
+        color: rgb(241, 241, 241);
+        opacity: 0.8;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 8px;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+  }
