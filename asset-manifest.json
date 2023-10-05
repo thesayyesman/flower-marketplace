@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Flower_Portrait/static/css/main.d85d08e6.css",
+    "main.js": "/Flower_Portrait/static/js/main.bb199d05.js",
+    "static/js/787.4a984c7a.chunk.js": "/Flower_Portrait/static/js/787.4a984c7a.chunk.js",
+    "index.html": "/Flower_Portrait/index.html",
+    "main.d85d08e6.css.map": "/Flower_Portrait/static/css/main.d85d08e6.css.map",
+    "main.bb199d05.js.map": "/Flower_Portrait/static/js/main.bb199d05.js.map",
+    "787.4a984c7a.chunk.js.map": "/Flower_Portrait/static/js/787.4a984c7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d85d08e6.css",
+    "static/js/main.bb199d05.js"
+  ]
+}
