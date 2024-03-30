@@ -69,6 +69,7 @@ function App() {
       })
     );
   };
+  const [properties, setProperties] = useState(initProperty);
 
   // CART-------------------
 
@@ -114,8 +115,6 @@ function App() {
     //   })
     // );
   };
-
-  const [properties, setProperties] = useState(initProperty);
 
   const [cart, setCart] = useState(initCart);
 
